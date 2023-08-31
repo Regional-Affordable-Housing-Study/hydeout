@@ -23,3 +23,8 @@ followed by an unordered list in a new header
 - list two
 - list three
 - list four
+
+_italics_
+**bold**
+
+[!path/to/file.jpg]
