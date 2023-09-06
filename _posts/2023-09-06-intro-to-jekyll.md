@@ -199,12 +199,14 @@ This will walk through how to create a new post online using github. I would rec
 	2. 2023-09-05-my-first-file.md
 6. In the text editor below that, add your front matter
 ```
+
 ---
 layout: post
 title: My First File (to comply with whatever you named the file)
 categories:
 	- Markup
 ---
+
 ```
 7. Then add your content
 ```
