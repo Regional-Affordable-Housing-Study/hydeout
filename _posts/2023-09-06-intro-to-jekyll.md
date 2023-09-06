@@ -96,7 +96,7 @@ format and nesting is done with tabs
 
 ## Images
 
-Images can be imbedded into text by adding the file path to the image - note this needs to be the file path once in website form, not the file path stored locally on your computer.
+Images can be imbedded into text by adding the file path to the image - note this needs to be the file path once in website form, not the file path stored locally on your computer. These image files can be hosted on github and then linked to from the markdown (see the raw markdown of this file for an example)
 
 ```
 ![alt text that describes the image - important for screen readers](file/path/to/image)
@@ -105,12 +105,12 @@ Images can be imbedded into text by adding the file path to the image - note thi
 
 ```
 
-![An image showing distribution of Risk Values for Bay County](HARP_FSF_PreliminaryFindings/RiskHistogram.png)
+![An image showing distribution of Risk Values for Bay County](https://github.com/Regional-Affordable-Housing-Study/hydeout/tree/master/_screenshots/RiskHistogram.png)
 # Structure
 
 The website is primarily composed of markdown documents in a simple folder structure.
 
-![[Pasted image 20230905182609.png]]
+![Image showing github file structure](https://github.com/Regional-Affordable-Housing-Study/hydeout/tree/master/_screenshots/fileStruct.png)
 
 A majority of these files and folders control more advanced uses for the website. The most important ones are:
 
