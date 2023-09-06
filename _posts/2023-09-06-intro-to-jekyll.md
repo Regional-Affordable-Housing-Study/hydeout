@@ -199,17 +199,17 @@ This will walk through how to create a new post online using github. I would rec
 	2. 2023-09-05-my-first-file.md
 6. In the text editor below that, add your front matter
 ```
-   ---
-   layout: post
-   title: My First File (to comply with whatever you named the file)
-   categories:
-	  - Markup
-   ---
+---
+layout: post
+title: My First File (to comply with whatever you named the file)
+categories:
+	- Markup
+---
 ```
 7. Then add your content
 ```
-   # Here is a header
-   Followed by some glorious content
+# Here is a header
+Followed by some glorious content
 ```
 8. If you hit preview you can see what your markdown will look like - it will try to format the front matter as a table. Just ignore that as it will be fixed when you publish and make sure the content looks good
 9. Hit commit changes - add a description if you want, this is more for troubleshooting purposes on the backend and wont effect the website content
