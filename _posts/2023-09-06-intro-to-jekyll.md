@@ -14,7 +14,7 @@ The RHNA website is built with jekyll - a blog-aware, static site generator writ
 
 The main power of jekyll is the use of themes to pragmatically convert simple text files (markdown) into beautifully and consistently designed webpages. I picked a theme called hydeout that seemed to fit nicely with the purpose of the website. This theme can be changed relatively easily since all of the data can be moved into a new project with a different theme.
 
-An example "playground" version of the website has been created here: https://regional-affordable-housing-study.github.io/hydeout/. I would recommend recommend opening it and playing around with the website before going through this.
+An example "playground" version of the website has been created here: [https://regional-affordable-housing-study.github.io/hydeout/](https://regional-affordable-housing-study.github.io/hydeout/). I would recommend recommend opening it and playing around with the website before going through this.
 
 This guide provides the fundamentals of updating the RHNA website with a new post and some other likely changes. Anything more complex and I turn you to the [jekyll documentation](https://jekyllrb.com/docs/) and the [hydeout](https://github.com/Regional-Affordable-Housing-Study/hydeout/tree/master) specific documentation. Pretty much anything can be customized and changed to fit the needs of the project.
 
@@ -47,11 +47,15 @@ Text can be formatted with either *'s or _'s
 
 ```
 Single is Italics
+
 _italics_
+
 *also italics*
 
 Double is bold
+
 __bold__
+
 **bold**
 ```
 
@@ -105,12 +109,12 @@ Images can be imbedded into text by adding the file path to the image - note thi
 
 ```
 
-![An image showing distribution of Risk Values for Bay County](https://github.com/Regional-Affordable-Housing-Study/hydeout/tree/master/_screenshots/RiskHistogram.png)
+![An image showing distribution of Risk Values for Bay County](_screenshots/RiskHistogram.png)
 # Structure
 
 The website is primarily composed of markdown documents in a simple folder structure.
 
-![Image showing github file structure](https://github.com/Regional-Affordable-Housing-Study/hydeout/tree/master/_screenshots/fileStruct.png)
+![Image showing github file structure](_screenshots/fileStruct.png)
 
 A majority of these files and folders control more advanced uses for the website. The most important ones are:
 
@@ -190,23 +194,23 @@ This will walk through how to create a new post online using github. I would rec
 	1. Rename your file using the standard format
 	2. 2023-09-05-my-first-file.md
 6. In the text editor below that, add your front matter
-   ```
+```
    ---
    layout: post
    title: My First File (to comply with whatever you named the file)
    categories:
 	  - Markup
    ---
-   ```
+```
 7. Then add your content
-   ```
+```
    # Here is a header
    Followed by some glorious content
-   ```
-8. If you hit preview you can see what your markdown will look like - it will try to format the front matter as a table. Just ignore that as it will be fixed when you publish and make sure the content looks good
-9. Hit commit changes - add a description if you want, this is more for troubleshooting purposes on the backend and wont effect the website content
-10. Click <>Code at the top left
-11. Near the bottom right you should see Deployments - click that. Updates do not happen immediately, but rather when you commit your changes you trigger an event on github that the content should be redeployed. Wait until you see a new deployment with a green checkmark next to it and a "1 minute ago" tag (if you don't see it wait, depending on server loads sometimes it can take a bit)
-12. Once that shows up, you can hit the Square with the arrow to take you to the website. Alternatively, you can just refresh the website page https://regional-affordable-housing-study.github.io/hydeout/ for the playground
-13. On the website you should see you new blog post at the top of the posts section on the home page, and at the top of the posts section on whatever category you put it in. If it is not there, go back and check what you did and make sure everything is a) in the correct folder, b) titled in the correct format, and c) has the proper front matter.
-14. Celebrate yourself for a job well done.
+```
+9. If you hit preview you can see what your markdown will look like - it will try to format the front matter as a table. Just ignore that as it will be fixed when you publish and make sure the content looks good
+10. Hit commit changes - add a description if you want, this is more for troubleshooting purposes on the backend and wont effect the website content
+11. Click <>Code at the top left
+12. Near the bottom right you should see Deployments - click that. Updates do not happen immediately, but rather when you commit your changes you trigger an event on github that the content should be redeployed. Wait until you see a new deployment with a green checkmark next to it and a "1 minute ago" tag (if you don't see it wait, depending on server loads sometimes it can take a bit)
+13. Once that shows up, you can hit the Square with the arrow to take you to the website. Alternatively, you can just refresh the website page https://regional-affordable-housing-study.github.io/hydeout/ for the playground
+14. On the website you should see you new blog post at the top of the posts section on the home page, and at the top of the posts section on whatever category you put it in. If it is not there, go back and check what you did and make sure everything is a) in the correct folder, b) titled in the correct format, and c) has the proper front matter.
+15. Celebrate yourself for a job well done.
