@@ -113,12 +113,12 @@ Images can be imbedded into text by adding the file path to the image - note thi
 
 ```
 
-![An image showing distribution of Risk Values for Bay County](./_screenshots/RiskHistogram.png)
+![An image showing distribution of Risk Values for Bay County](https://raw.githubusercontent.com/Regional-Affordable-Housing-Study/hydeout/master/_screenshots/RiskHistogram.png?raw=true)
 # Structure
 
 The website is primarily composed of markdown documents in a simple folder structure.
 
-![Image showing github file structure](./_screenshots/fileStruct.png)
+![Image showing github file structure](https://raw.githubusercontent.com/Regional-Affordable-Housing-Study/hydeout/master/_screenshots/fileStruct.png?raw=true)
 
 A majority of these files and folders control more advanced uses for the website. The most important ones are:
 
@@ -198,7 +198,6 @@ This will walk through how to create a new post online using github. I would rec
 	1. Rename your file using the standard format
 	2. 2023-09-05-my-first-file.md
 6. In the text editor below that, add your front matter
-
 ```
    ---
    layout: post
@@ -207,14 +206,11 @@ This will walk through how to create a new post online using github. I would rec
 	  - Markup
    ---
 ```
-
 7. Then add your content
-
 ```
    # Here is a header
    Followed by some glorious content
 ```
-
 8. If you hit preview you can see what your markdown will look like - it will try to format the front matter as a table. Just ignore that as it will be fixed when you publish and make sure the content looks good
 9. Hit commit changes - add a description if you want, this is more for troubleshooting purposes on the backend and wont effect the website content
 10. Click <>Code at the top left
